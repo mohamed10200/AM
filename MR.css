@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+     
+}
+
+body{
+   background-color: black;
+}
+header{
+      background: #fff;
+      width: 100%;
+      display: flex;
+      position: fixed;
+      z-index: 999;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 178px;
+}
+
+
+.logo{
+    text-decoration: none;
+    color: #2267ca;
+    text-transformation: uppercase;
+    font-weight: 800;
+    font-size: 1.5em;
+    
+    
+      
+}
+
+.content{
+    color: #353c80;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-left: 30px;    
+
+}
+.content:hover{
+    color: #626fec;
+    transform: scale(1.1);
+    transition: 0.7s ease;
+    
+}
+
+.content2{
+    color: #353c80;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+.content2:hover{
+    color: #626fec;
+    transform: scale(1.1);
+    transition: 0.7s ease;
+    
+}
+
+
+.hr55{
+    color: black;
+    height: 4px;
+    
+}
+
+.come{
+    text-align: center;
+    padding-top: 7px;
+}
+
+
+.social{
+    color: #2b82ff;
+    margin-left: 10px;
+    font-size: 1.3em;
+    font-weight: 700;  
+}
+
+
+
+.box{
+    background-image:  url('file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/MR/CutPaste_٢٠٢٢-٠٩-٢٣_٠٠-٠١-٤٧-٤٤١.jpg');
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    padding: 1px;
+    top: 10%;
+    left: 5%;
+    position: absolute;
+    transform: transleat(-50%,-50%);
+    border-radius: 20px;
+}
+.h16{
+    color: red;
+    padding-top: 70px;
+    font-weight: 800;
+    font-size: 2.0em;
+    padding-left: 40px;
+}
+.h15{
+    color: #667999;
+    padding-top: 20px;
+    padding-left: 10px;    
+}
+
+.box h3{
+    color: white;
+    padding-left: 10px;    
+}
+
+
+.min-btn{
+    color: white;
+    background: #687c9c;
+    background-size: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 400;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 20px;
+}
+
+.min-btn:hover{
+    background-color: #3b4659;
+    transform: scale(1.1);
+    transition: 0.7s ease;
+    }
+    
+.icons{
+    padding-left: 50px;
+}
+
+.brand{
+    color: #47546a;
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: 2.0em;
+}
+
+
+.content15{
+    
+    height: 500px;
+    padding-top: 900px;
+}
+
+
+.h89{
+    color: #667999;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5em;
+    
+}
+
+.content7{
+    display: flex;
+    justify-content: center; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    
+}
+.cards2{
+    padding-top: 100px;
+    padding-left: 290px;
+   
+}
+
+.more-details{
+    padding-left:  250px;
+}
+
+
+.project-image img{
+    width: 100%;
+}
+
+
+.img5{
+    width: 1300px;
+    height: 230px;
+} 
+
+
+.title3{
+    color: #667999;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5em;
+    padding-top: 900px;
+}
+.info{
+    text-align: center;
+    color: white;    
+}
+
+
+.content90{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+       
+}
+
+
+
+   
+.card20{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease; 
+          
+    }
+
+
+.card20:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+    }
+
+.icon40{
+    color: #3a6cf4;
+    font-size: 7em;
+    text-align: center;
+    }
+.info{
+    text-align: center;
+    color: white;    
+}
+
+.info h3{
+    color: #323497;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 10px;
+    
+} 
+
+.info p{
+    color: black;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+
+.icon4{
+    color: #ff4055;
+}
+
+.icon6{
+    color: #1dad1f;
+}
+
+.icon8{
+    color: #404eff;
+}
+
+
+
+
+
+.footer{
+    background: white;
+    padding: 30px;
+}
+
+
+.footer h2{
+    
+}
+
+.footer h3{
+    
+}
+
+
+.footer-icon{
+    padding-left: 750px;
+}
